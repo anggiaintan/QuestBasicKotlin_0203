@@ -56,6 +56,10 @@ println(shape)
 shape.add("Rectangle")
 println(shape)
 
+// Menghapus data dari Set Mutable
+shape.remove("Circle")
+println(shape)
+
 
 fun main() {
     ContohList()
